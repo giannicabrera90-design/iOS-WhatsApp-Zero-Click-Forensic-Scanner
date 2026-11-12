@@ -8,3 +8,6 @@ Timeline Correlation of Lock State: Cross-references data with `knowledgeC.db` t
 Noise Filters: Isolates routine iOS memory releases (Jetsam) from actual crashes caused by memory corruption (EXC_BAD_ACCESS, SIGSEGV) in critical processes such as “ImageIO” or “WhatsApp”.
 Forensic SQLite Audit: Inspects metadata from high-risk messages and attachments targeting buffer overflows.
 Network IoC Extraction: Identifies outbound connections to public IPs from system daemons involved in delivering payloads in the background.
+
+Use:
+python scanner.py /path/to/sysdiagnose_o_backup/ -o forensic_report.json
