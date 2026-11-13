@@ -11,3 +11,6 @@ Network IoC Extraction: Identifies outbound connections to public IPs from syste
 
 Use:
 python scanner.py /path/to/sysdiagnose_o_backup/ -o forensic_report.json
+
+Warning:
+This tool is very new, so it may contain errors or inaccuracies. For a completely precise, accurate, and comprehensive analysis, it is recommended to consult a specialist or use established, specialized forensic tools such as MVT (Mobile Verification Toolkit) from Amnesty Security, or Triangle Check and iShutdown from Kaspersky.
