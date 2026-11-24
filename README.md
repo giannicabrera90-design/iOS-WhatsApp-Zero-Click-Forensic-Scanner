@@ -9,8 +9,8 @@ Noise Filters: Isolates routine iOS memory releases (Jetsam) from actual crashes
 Forensic SQLite Audit: Inspects metadata from high-risk messages and attachments targeting buffer overflows.
 Network IoC Extraction: Identifies outbound connections to public IPs from system daemons involved in delivering payloads in the background.
 
-Use:
-python scanner.py /path/to/sysdiagnose_o_backup/ -o forensic_report.json
+Use: First, you need to extract a decompressed Sysdiagnose folder or a decrypted and decompressed Backup. After that, you will need to install the scanner file to use it and execute this command on a external device (preferably a computer):
+python scanner.py /path/to/sysdiagnose_or_backup/ -o forensic_report.json
 
 Warning:
-This tool is very new, so it may contain errors or inaccuracies. For a completely precise, accurate, and comprehensive analysis, it is recommended to consult a specialist or use established, specialized forensic tools such as MVT (Mobile Verification Toolkit) from Amnesty Security, or Triangle Check and iShutdown from Kaspersky.
+This tool is very new, so it may contain errors or inaccuracies, and it will be updated. For a completely precise, accurate, and comprehensive analysis, it is recommended to consult a specialist or use established, specialized forensic tools such as MVT (Mobile Verification Toolkit) from Amnesty Security, or Triangle Check and iShutdown from Kaspersky.
